@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+}
+html, body, .wrapper, #app {
+	height: 100%;
+}
+.content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px; 
+}
+.content:after {
+  content: "";
+  display: block;
+}
+.my-footer, .content:after {
+  height: 100px; 
+}
+.my-footer {
+  background: orange;
+}

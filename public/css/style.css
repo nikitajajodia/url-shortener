@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+html,
+body,
+.wrapper,
+#app {
+  height: 100%;
+}
+.navbar {
+	border-radius: 0 !important;
+  text-align: center;
+}
+.navbar .container {
+  margin:10px 15px;
+}
+.header-msg {
+  color:#fff;
+}
+.navbar .navbar-header {
+  float:none;
+}
+.content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -70px;
+  text-align: center;
+}
+.content:after {
+  content: "";
+  display: block;
+}
+.my-footer,
+.content:after {
+  height: 70px;
+}
+.my-footer {
+  background: #000;
+}
+h1 {
+	text-align: center;
+}
+.menus {
+  margin-top: 25px;
+}
+.menu-item {
+  font-size: x-large;
+  padding: 10px 10px;
+  color:#5BC0DE;
+}
+.menu-item:hover,.menu-item:active,.menu-item:visited,.menu-item:focus {
+  text-decoration: none;
+}
+.about {
+  margin-top: 25px;
+  text-align: center;
+}
+.about p {
+  font-size: initial;
+  font-weight: 600;
+}
+.dashboard {
+  margin-top: 25px;
+  text-align: center;
+}
